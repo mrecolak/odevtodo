@@ -15,7 +15,7 @@ var hata = document.getElementById('liveToastErr')
 // ekleme ve toast
 
 function ekle(){
-    if (input.value == ""){     // içinin boşluğunu hallet!!
+    if (input.value == 0){     // içinin boşluğunu hallet!!
         $('#liveToastErr').toast('show')                //hata toast
     }else {
         $('#liveToast').toast('show')                       // geçerli toast
